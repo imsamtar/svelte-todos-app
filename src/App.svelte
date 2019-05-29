@@ -1,10 +1,11 @@
 <script>
-	import NavBar from './NavBar.svelte';
-	export let name;
+	import Header from './Header.svelte';
+	import Main   from './Main.svelte';
+	import Footer from './Footer.svelte';
 </script>
 
 <style></style>
 
-<header class="header">
-	<NavBar/>
-</header>
+<Header/>
+<Main/>
+<Footer/>
