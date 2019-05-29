@@ -1,11 +1,10 @@
 <script>
+	import NavBar from './NavBar.svelte';
 	export let name;
 </script>
 
-<style>
-	h1 {
-		color: purple;
-	}
-</style>
+<style></style>
 
-<h1>Hello {name}!</h1>
+<header class="header">
+	<NavBar/>
+</header>
